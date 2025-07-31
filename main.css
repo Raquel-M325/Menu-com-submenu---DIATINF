@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu nav ul li a {
+    color: white;
+    background-color:lightseagreen ;
+    padding: 6px;
+
+}
+
+li{
+    padding: 3px;
+}
+
+.diretoria, .documentos {
+    padding: 22px;
+    white-space: nowrap;
+}
+
+
+
+.menu nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 2em;
+   
+}
+
+.menu nav ul li a:hover{
+    background-color: lightseagreen ;
+    visibility: hidden;
+    transition: 200ms;
+  
+}
+
+.menu-diretoria{
+    position: relative;
+}
+
+
+
+.menu-diretoria .diretoria{
+    position: absolute;
+}
+
+.menu-documentos{
+    position: relative;
+}
+
+.menu-documentos .documentos{
+    position: absolute;
+}
+
+h1{
+    text-align: center;
+}
